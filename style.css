@@ -1,0 +1,316 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Cabeçalho */
+
+.cabecalho{
+
+    background-color: #122A57;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+#titulo{
+    padding: 5px;
+    max-width: 500px;
+    height: 120px;   
+    align-items:;
+    padding-top: 30px;
+
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    
+
+    margin-left:100px;
+}
+
+.menu{
+    
+    height: 120px;
+    margin-left: 400px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+  
+
+    margin-right:100px ;
+}
+
+.menu .item{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    margin:10px;
+    
+
+
+
+}
+
+/*Tela Inicial*/
+
+.telainicial{
+    padding-top: 50px;
+    max-width:100% ;
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+
+}
+
+.elementti{
+    display: flex;
+    width: 2000px;
+    margin: 10px;
+    flex-flow: row;
+    
+    
+}
+
+.register{
+    
+    padding-top: 100px;
+    padding-left: 50px;
+    width: 450px;
+    margin: 10px;
+    margin: 50px;
+
+    
+}
+
+.register2{
+    
+    width: 450px;
+    margin: 10px;
+    margin: 50px;
+
+    
+}
+
+.register p{
+    line-height: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.register2 p{
+    width: 445px;
+    line-height: 58px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.title2{
+    color: #122A57;
+    font-size: 55px;
+}
+
+.title3{
+    color: #122A57;
+    font-size: 20px;
+}
+
+.title4{
+    color: #122A57;
+    font-size: 35px;
+}
+.title5{
+    color: #122A57;
+    font-size: 20px;
+}
+.botaoti{
+    margin-top: 15px;
+    background-color: #122A57;
+    border-radius: 30px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+
+}
+
+.botaoti a{
+    color: #fff;
+    
+    
+}
+
+.textti{
+    width: 300px;
+
+}
+
+.textti2{
+    width: 450px;
+   
+
+}
+
+
+.registerimg img{
+    width: 750px;
+}
+
+
+/*Serviços*/
+
+.servicos{
+    height: 600px;
+    display: flex;
+    background-color: #122A57;
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.title6{
+    color: #fff;
+    margin-top: 50px;
+    padding-bottom: 85px;
+
+    padding-top: 0px;
+    font-size: 55px;
+    text-align: start;
+}
+
+.elements{
+
+    width: 400px;
+    text-align: center;
+
+}
+
+.elementsx{
+    padding-top: 200px;
+    width: 400px;
+    text-align: center;
+
+}
+
+.subtitleservice{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+.botao{
+    line-height: 3;
+    margin-left:25%;
+    background-color: #E5E5E5;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+
+}
+
+
+/* Planos*/
+
+#planos{
+    flex-direction: column;
+    min-width: 100vh;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.list-planos{
+
+    display: flex;
+    align-items: flex-end;
+    
+    height: 700px;
+    justify-content: center;
+}
+
+.element{
+    padding-left: 30px;
+    padding-right: 30px;
+
+    text-align: justify;
+    width: 280px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    border: solid 6px #122A57;
+    margin-bottom: 100px;
+
+}
+
+.plan{
+    border-bottom:#122A57 solid 4px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+.planing{
+    
+    font-size: 50px;
+    padding-left: 400px;
+    padding-top: 20px;
+}
+.list{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.botaoplan{
+
+    
+    background-color: #122A57;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 2;
+    height: 40px;
+    width: 150px;
+    
+    color: #fff;
+
+}
+
+
+/*Footer*/
+
+footer{
+    background-color: #122A57;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 5;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.ano{
+    margin-left: 20px;
+    color: #fff;
+}
+
+.autor{
+    margin-right: 20px;
+    color: #fff;
+}
